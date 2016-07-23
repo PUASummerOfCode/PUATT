@@ -1,0 +1,42 @@
+body {
+	padding-top: 50px;
+}
+
+div>h1.header ,div>h2.header{
+	color:white;
+	opacity: 1.0;
+	text-align: right;
+   top: 100px; 
+   left: 0; 
+   width: 100%; 
+}
+.mydiv {
+	position: relative; 
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../img/student.jpg);
+   	background-size: 100%;
+   	padding-bottom: 150px;
+}
+
+h1 span,h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+   margin: 5px;
+}
+
+img.header{
+	margin-left: 70%;
+	margin-bottom: -7%;
+}
+
+div.firstrow{
+	margin-top: 7px;
+}
