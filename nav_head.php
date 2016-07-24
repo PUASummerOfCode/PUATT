@@ -19,8 +19,8 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-info fa-fw" aria-hidden="true"></i> Information<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="courses.php"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp;Courses</a></li>
-            <li><a href="#"><i class="fa fa-users fa-fw" aria-hidden="true"></i>&nbsp;Instructors</a></li>
-            <li><a href="#"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;Rooms</a></li>
+            <li><a href="instructor.php"><i class="fa fa-users fa-fw" aria-hidden="true"></i>&nbsp;Instructors</a></li>
+            <li><a href="rooms.php"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;Rooms</a></li>
           </ul>
         </li>
       </ul>

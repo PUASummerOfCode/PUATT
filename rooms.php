@@ -7,54 +7,50 @@
 <body>
 	<?php include('nav_head.php'); ?>
 	<table class="table table-striped table-bordered table-hover table-condensed">
-		<caption>Course</caption>
+		<caption>Rooms</caption>
 		<thead>
 			<tr>
-				<th>Cousre Id</th>
-				<th>Cousre Name</th>
-				<th>Cousre Description</th>
-				<th>Cousre Requirements</th>
-				<th>Cousre Capacity</th>
+				<th>Room Id</th>
+				<th>Room type</th>
+				<th>Room capacity</th>
+				<th>Room availability</th>
 				<th></th>
 			</tr>
 		</thead>
 		<?php
 			$conn=mysqli_connect("localhost","root","","timeTable");
-			$query = "SELECT * FROM courses";
+			$query = "SELECT * FROM rooms";
 			$data=mysqli_query($conn,$query);
 			foreach ($data as $key) {
 				echo "<tr>
 						<td>".$key['id']."</td>
-						<td>".$key['name']."</td>
-						<td>".$key['des']."</td>
-						<td>".$key['req']."</td>
+						<td>".$key['type']."</td>
 						<td>".$key['cap']."</td>
-						<td><button class='btn-danger btn-lg btn_del_courses'>Delete</button></td>
+						<td>".$key['ava']."</td>
+						<td><button class='btn-danger btn-lg btn_del_rooms'>Delete</button></td>
 					</tr>";
 			}
 		?>
 	</table>
 	<br><br>
 	<table class="table table-striped table-bordered table-hover table-condensed">
-		<caption>Insert Course</caption>
+		<caption>Insert Room</caption>
 		<thead>
 			<tr>
-				<th>Cousre Id</th>
-				<th>Cousre Name</th>
-				<th>Cousre Description</th>
-				<th>Cousre Requirements</th>
-				<th>Cousre Capacity</th>
+				<th>Room Id</th>
+				<th>Room type</th>
+				<th>Room capacity</th>
+				<th>Room availability</th>
 				<th></th>
 			</tr>
 		</thead>
 		<tr>
 			<td><input type="text" id="id_in"></td>
-			<td><input type="text" id="name_in"></td>
-			<td><input type="text" id="des_in"></td>
-			<td><input type="text" id="req_in"></td>
+			<td><input type="text" id="type_in"></td>
 			<td><input type="text" id="cap_in"></td>
+			<td><input type="text" id="ava_in"></td>
 			<td>
-				<button class="btn-success btn-lg" id="btn_in_courses">Insert</button>
+				<button class="btn-success btn-lg" id="btn_in_rooms">Insert</button>
 			</td>
 		</tr>
 	</table>
@@ -63,24 +59,22 @@
 		<caption>EDIT Course</caption>
 		<thead>
 			<tr>
-				<th>Cousre Id</th>
-				<th>New Cousre Id</th>
-				<th>Cousre Name</th>
-				<th>Cousre Description</th>
-				<th>Cousre Requirements</th>
-				<th>Cousre Capacity</th>
+				<th>Room Id</th>
+				<th>New Room Id</th>
+				<th>Room type</th>
+				<th>Room capacity</th>
+				<th>Room availability</th>
 				<th></th>
 			</tr>
 		</thead>
 		<tr>
 			<td><input type="text" id="id_edit"></td>
 			<td><input type="text" id="nid_edit"></td>
-			<td><input type="text" id="name_edit"></td>
-			<td><input type="text" id="des_edit"></td>
-			<td><input type="text" id="req_edit"></td>
+			<td><input type="text" id="type_edit"></td>
 			<td><input type="text" id="cap_edit"></td>
+			<td><input type="text" id="ava_edit"></td>
 			<td>
-				<button class="btn-primary btn-lg" id="btn_edit_courses">Edit</button>
+				<button class="btn-primary btn-lg" id="btn_edit_rooms">Edit</button>
 			</td>
 		</tr>
 	</table>
