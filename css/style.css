@@ -40,3 +40,9 @@ img.header{
 div.firstrow{
 	margin-top: 7px;
 }
+caption{
+  text-align: center;
+  font-size: 30;
+  font-weight: bold;
+  background-color: gold;
+}
