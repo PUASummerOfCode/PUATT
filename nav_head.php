@@ -23,9 +23,25 @@
             <li><a href="rooms.php"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;Rooms</a></li>
           </ul>
         </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-education" aria-hidden="true"></i> Faculties<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="faculties/pharmacy.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Pharmacy and Drug Manufacturing</a></li>
+            <li><a href="faculties/dentistry.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Dentistry</a></li>
+            <li><a href="faculties/engineering.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Engineering</a></li>
+            <li><a href="faculties/financial.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Financial and Administrative Sciences</a></li>
+            <li><a href="faculties/legal.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Legal Studies and International Relations</a></li>
+            <li><a href="faculties/languages.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Languages and Translations</a></li>
+            <li><a href="faculties/tourism.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Tourism and Hotel Management</a></li>
+            <li><a href="faculties/allied.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Allied Medical Sciences</a></li>
+            <li><a href="faculties/mass-communication.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Mass Communication</a></li>
+            <li><a href="faculties/physical.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Physical Therapy</a></li>
+            <li><a href="faculties/arts.php"><i class="glyphicon glyphicon-asterisk" aria-hidden="true"></i>&nbsp;Arts And Design</a></li>
+          </ul>
+        </li>
       </ul>
       <ul class='nav navbar-nav navbar-right'>
-      		<li><a href="#">About</a></li>
+        <li><a href="#">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
